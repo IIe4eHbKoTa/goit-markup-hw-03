@@ -47,7 +47,7 @@ img {
     max-width: 100%;
 }
 
-.conteiner {
+.container {
     width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
@@ -58,11 +58,15 @@ img {
     padding: 24px 0;
 }
 
-.header-nav .conteiner .nav-menu {
+.header-nav .container .nav-menu {
     display: flex;
     justify-content: space-between;
 }
 
+.nav-menu .menu {
+    display: flex;
+    align-items: center;
+}
 
 .nav-menu .menu >a {
     display:inline-flex;
@@ -75,7 +79,7 @@ img {
     font-weight: 800;
     color: #4D5AE5;
 
-    margin:0 76px 0 0;
+    margin-right: 76px;
 }
 
 .nav-menu .menu .list {
@@ -97,7 +101,7 @@ img {
 }
 
 
-.conteiner .logo-studio {
+.container .logo-studio {
     color: #2E2F42;
 }
 
@@ -237,7 +241,7 @@ img {
 
 .our-job {
     display:block;
-    margin-bottom:194px ;
+    margin-bottom:120px ;
 }
 
 .our-job .our-job-title {
@@ -252,7 +256,7 @@ img {
     color: #2E2F42;
 }
 
-.our-job .conteiner ul {
+.our-job .container ul {
     display: inline-flex;
     gap: 24px;
     margin-top: 72px;
@@ -261,7 +265,7 @@ img {
 
 
 
-.our-job .conteiner .list {
+.our-job .container .list {
     color: #E7E9FC;
 }
 
@@ -284,7 +288,7 @@ img {
     margin-top:120px ;
 }
 
-.our .conteiner ul {
+.our .container ul {
     display: inline-flex;
     margin-top: 72px;
     margin-bottom: 120px;
