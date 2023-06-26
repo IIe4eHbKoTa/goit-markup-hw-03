@@ -216,7 +216,7 @@ img {
 }
 
 .second-title-text {
-    width: calc((100% - 72px) \ 4);
+    width: calc((100% - 72px) / 4);
 }
 
 .second-title-text .title-list {
@@ -400,6 +400,7 @@ img {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 24px;
     column-gap: 24px;
     row-gap: 48px;
     margin-bottom: 72px;
