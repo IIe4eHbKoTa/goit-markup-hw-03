@@ -195,6 +195,8 @@ img {
     font-size: 56px;
     color: #FFFFFF;
     line-height: 1.07;
+
+    max-width: 496px;
 }
 
 .main-title .container {
@@ -203,18 +205,20 @@ img {
     
 }
 
+.second-title {
+    padding: 120px 0;
+}
+
 .second-title .container .list {
     display: flex;
     gap: 24px;
-    margin-top: 120px;
-    margin-bottom:120px ;
 }
 
-.second-title.text {
+.second-title-text {
     width: calc((100% - 72px) \ 4);
 }
 
-.second-title.text .title-list {
+.second-title-text .title-list {
     margin-bottom: 8px;
 }
 
@@ -247,7 +251,7 @@ img {
 }
 
 .our-job {
-    padding-bottom:120px ;
+    padding:120px;
 
 }
 
@@ -280,7 +284,7 @@ img {
 
 
 .our {
-    padding: 120px;
+    padding: 120px 0;
     background-color:#F4F4FD;
 }
 
@@ -341,9 +345,6 @@ img {
 
 .footer {
     background-color:#2E2F42 ;
-}
-
-.footer .container {
     padding: 100px 0;
 }
 
@@ -375,6 +376,33 @@ img {
 
 }
 
+.portfolio-main .portfolio-section {
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
+
+.hidden {
+    position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+    
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+}
+
+.portfolio-main .portfolio-section .list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
+
+}
+
 .list .button {
     letter-spacing: 0.04em;
     font-family: var(--primary-font);
@@ -385,62 +413,16 @@ img {
     font-weight: 500;
     line-height: 1.5;
 
-    display: inline-flex;
-    border-radius:4px ;
-    padding: 12px 24px ;
-    width: max-content;
-    border-color: #F4F4FD;
-    border-style: none;
-}
-
-.navigation .list {
-    display: inline-flex;
-    margin: 96px 472px 59px 472px ;
-    gap: 23.33px;
-}
-
-.list-cards {
-    display:flex;
-    margin-bottom:120px;
-
-}
-
-.card-content {
-    display: block;
-    margin: 32px 52px 32px 16px;
-}
-
-.portfolio-content {
-    margin-top: 8px;
-}
-
-
-.list-cards .list li {
-    display:inline-flex;
-    flex-wrap: nowrap;
-    margin-bottom: 48px;
-    border: 1px solid #E7E9FC;
-}
-
-.card-one {
-    display: flex;
-    gap: 24px;
-}
-
-.card-two {
-    display: flex;
-    gap: 24px;
-}
-
-.card-three{
-    display: flex;
-    gap: 24px;
+    padding: 12px 24px;
+    border: 1px solid #e7e9fc;
+    border-radius: 4px;
 }
 
 .list .button:hover,
 .list .button:focus {
     color: #FFFFFF;
     background-color:#404BBF ;
+    border: 1px solid transparent;
 }
 
 .list .link {
