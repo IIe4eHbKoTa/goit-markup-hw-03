@@ -53,8 +53,8 @@ img {
     margin: 0 auto;
 }
 
-.nav-menu {
-    display: flex;
+.menu {
+    display:flex;
     align-items: center;
 }
 
@@ -64,11 +64,10 @@ img {
 
 .header-nav {
     border-bottom: 1px solid #E7E9FC;
-    padding: 24px 0;
 }
 
 
-.nav-menu .menu >a {
+.menu >a {
     text-decoration: none;
     line-height: 1.17;
     letter-spacing: 0.03em;
@@ -81,7 +80,7 @@ img {
     margin:0 76px 0 0;
 }
 
-.nav-menu .menu .list {
+.menu .list {
     display: flex;
     text-decoration: none;
     letter-spacing: 0.02em;
@@ -91,12 +90,16 @@ img {
     font-weight: 500;
 
     gap:40px;
+
+}
+
+.menu .list .link {
+    padding: 24px 0;
 }
 
 
-
 .header-adress .list {
-    display: inline-flex;
+    display:flex;
     gap:40px;
 }
 
