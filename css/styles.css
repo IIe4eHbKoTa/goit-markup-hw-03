@@ -53,6 +53,11 @@ img {
     margin: 0 auto;
 }
 
+.nav-menu {
+    display: flex;
+    align-items: center;
+}
+
 .header-nav .container {
     display: flex;
 }
@@ -62,14 +67,8 @@ img {
     padding: 24px 0;
 }
 
-.header-nav .container .nav-menu {
-    display: flex;
-    justify-content: space-between;
-}
-
 
 .nav-menu .menu >a {
-    display:inline-flex;
     text-decoration: none;
     line-height: 1.17;
     letter-spacing: 0.03em;
@@ -83,7 +82,7 @@ img {
 }
 
 .nav-menu .menu .list {
-    display: inline-flex;
+    display: flex;
     text-decoration: none;
     letter-spacing: 0.02em;
     line-height: 1.5;
@@ -93,6 +92,7 @@ img {
 
     gap:40px;
 }
+
 
 
 .header-adress .list {
@@ -240,8 +240,8 @@ img {
 }
 
 .our-job {
-    display:block;
-    margin-bottom:194px ;
+    padding-bottom:120px ;
+
 }
 
 .our-job .our-job-title {
