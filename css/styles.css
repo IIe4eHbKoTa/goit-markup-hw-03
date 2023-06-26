@@ -1,0 +1,234 @@
+:root {
+    --primary-font: "Roboto" , sans-serif;
+    --title-font : "Raleway" , sans-serif ;
+    --background-color-main: #FFFFFF;
+    
+}
+
+header {
+    background-color: #FFFFFF;
+}
+
+body {
+    background-color: #FFFFFF;
+    font-family: var(--primary-font);
+    color:#434455;
+}
+
+.header-nav .link {
+    text-decoration: none;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    font-family: var(--primary-font);
+    font-size: 18px;
+    font-weight: 800;
+    color:#4D5AE5;
+}
+
+.header-nav .logo-studio {
+    color: #2E2F42;
+}
+
+.link .logo-studio-footer {
+    color: #F4F4FD;
+}
+
+.list {
+    list-style: none;
+    background-color:var(--background-color-main);
+}
+
+.header-nav .list .link {
+    text-decoration: none;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+    color:#2E2F42;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.header-adress {
+    font-style: normal;
+}
+
+.header-adress .list .link
+{
+    color: #2E2F42;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+
+.header-nav .list .link:hover,
+ .header-nav .list .link:focus{
+    color: #404BBF;
+}
+
+
+.header-adress .link:hover,
+.header-adress .link:focus,
+.header-adress .link:hover,
+.header-adress .link:focus
+ {
+    color: #404BBF;
+}
+
+.main-title .main-button {
+    letter-spacing: 0.04em;
+    line-height: 1.5;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+    color: #FFFFFF;
+    background-color:#4D5AE5;
+    font-size: 16px;
+}
+
+.main-title .main-button:focus,
+.main-title .main-button:hover {
+    color: #FFFFFF;
+    background-color:#404BBF;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.main-title {
+    letter-spacing: 0.02em;
+    text-align: center;
+    background-color:#2E2F42;
+}
+
+.main-title .title {
+    letter-spacing: 0.02em;
+    font-weight: 700;
+    font-size: 56px;
+    color: #FFFFFF;
+    line-height: 1.07;
+}
+
+.second-title .text {
+    letter-spacing: 0.02em;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.second-title .list .title-list {
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    line-height: 1.2;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.our-job .our-job-title {
+    text-transform: capitalize;
+    letter-spacing: 0.02em;
+    text-align: center;
+    line-height: 1.11;
+    font-size: 36px;
+    font-weight: 700;
+    color: #2E2F42;
+}
+
+.our-job .our-job-title .list {
+    color: #E7E9FC;
+}
+
+
+.our {
+    background-color:#F4F4FD;
+}
+
+.list .our-team {
+    background-color: #FFFFFF;
+}
+
+.our .team {
+    color: #2E2F42;
+    text-transform: capitalize;
+    letter-spacing: 0.02em;
+    text-align: center;
+    line-height: 1.11;
+    font-size: 36px;
+    font-weight:700 ;
+}
+
+.list .our-team .job {
+    background-color: #FFFFFF;
+    letter-spacing: 0.02em;
+    color: #434455;
+    line-height: 1.5;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.our-team .human {
+    color: #2E2F42;
+    letter-spacing: 0.02em;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+
+.footer {
+    background-color: #2E2F42;
+}
+
+.footer .link {
+        text-decoration: none;
+            line-height: 1.17;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+            font-family: var(--title-font);
+            font-size: 18px;
+            font-weight: 800;
+            color: #4D5AE5;
+}
+
+.footer .footer-text {
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+    font-size: 16px;
+    color: #F4F4FD;
+}
+
+.list .button {
+    letter-spacing: 0.04em;
+    font-family: var(--primary-font);
+    cursor: pointer;
+    background-color:#F4F4FD ;
+    color: #4D5AE5;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+.list .button:hover,
+.list .button:focus {
+    color: #FFFFFF;
+    background-color:#404BBF ;
+}
+
+.list .link {
+    text-decoration: none;
+}
+
+.list .link .portfolio-job {
+    font-family: var(--primary-font);
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.link .portfolio-content {
+    font-family: var(--primary-font);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
