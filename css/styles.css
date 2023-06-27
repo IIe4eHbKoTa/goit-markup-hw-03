@@ -13,8 +13,6 @@ body {
     background-color: #FFFFFF;
     font-family: var(--primary-font);
     color:#434455;
-    margin: 0;
-    width: 1440px;
 }
 
 a {
@@ -68,7 +66,7 @@ img {
 }
 
 
-.menu >a {
+.menu .logo {
     text-decoration: none;
     line-height: 1.17;
     letter-spacing: 0.03em;
@@ -81,19 +79,19 @@ img {
     margin:0 76px 0 0;
 }
 
-.menu .list {
+.menu .nav-pages {
     display: flex;
+    margin-right: 332px;
+    gap:40px;
+}
+
+.nav-pages .pages {
     text-decoration: none;
     letter-spacing: 0.02em;
     line-height: 1.5;
     color: #2E2F42;
     font-size: 16px;
     font-weight: 500;
-    
-    margin-right: 332px;
-
-    gap:40px;
-
 }
 
 .menu .list .link {
@@ -252,7 +250,7 @@ img {
 }
 
 .our-job {
-    padding:120px;
+    padding-bottom:120px;
 
 }
 
@@ -326,7 +324,7 @@ img {
     color: #434455;
     line-height: 1.5;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 400;
 
     text-align: center;
 }
@@ -335,7 +333,7 @@ img {
     color: #2E2F42;
     letter-spacing: 0.02em;
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 1.2;
 
     text-align: center;
@@ -408,7 +406,6 @@ img {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-    margin-bottom: 72px;
 }
 
 
